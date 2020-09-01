@@ -3,7 +3,7 @@
 # About The Project
 This project is built using React, implementing React Hooks, Context API, Storing Data in localStorage and fetching data from an external API.
 
-# What you can do in this?
+# What can be done in this ?
 1. Search for a movie.
 2. Add Movie to watchlist.
 3. See added movies in the watchlist.
