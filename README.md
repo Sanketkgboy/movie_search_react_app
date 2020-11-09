@@ -1,5 +1,17 @@
 # Project Name: Movie Seacrh React App
 
+# How to run this project on your local machine after cloning/ downloading repo from github in case if it is throwing some error.
+1. git clone [repository url]
+2. cd [local repository]
+3. /* Delete the node_modules folder and any 'lock' files such as 
+yarn.lock or package-lock.json if present.*/ (In my case, I deleted package-lock.json)
+4. npm install
+5. npm start
+Now, if you are still able to see some errors on the terminal then,
+6. npm audit fix
+7. npm start ---> Project will run.
+
+
 # About The Project
 This project is built using React, implementing React Hooks, Context API, Storing Data in localStorage and fetching data from an external API.
 
@@ -10,13 +22,7 @@ This project is built using React, implementing React Hooks, Context API, Storin
 4. Remove movies from watchlist and add further to watched section.
 5. Remove from watched section and also can push back to watchlist.
 
-## Available Scripts
-In the project directory, you can run:
 
-### `npm start`
-Runs the app in the development mode
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
 
